@@ -7,6 +7,7 @@ import pandas as pd
 
 
 def visualize_clusters(rfm_scaled, labels, rfm_df):
+    # Create output directory
     os.makedirs("plots", exist_ok=True)
 
     # -----------------------------
@@ -35,7 +36,6 @@ def visualize_clusters(rfm_scaled, labels, rfm_df):
     pca_path = "plots/pca_clusters.png"
     plt.savefig(pca_path)
     plt.close()
-
     mlflow.log_artifact(pca_path)
 
     # -----------------------------
@@ -51,7 +51,6 @@ def visualize_clusters(rfm_scaled, labels, rfm_df):
     size_path = "plots/cluster_distribution.png"
     plt.savefig(size_path)
     plt.close()
-
     mlflow.log_artifact(size_path)
 
     # -----------------------------
@@ -69,5 +68,4 @@ def visualize_clusters(rfm_scaled, labels, rfm_df):
     rfm_path = "plots/rfm_cluster_means.png"
     plt.savefig(rfm_path)
     plt.close()
-
     mlflow.log_artifact(rfm_path)
