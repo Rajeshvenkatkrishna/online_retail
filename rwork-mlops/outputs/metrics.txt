@@ -1,0 +1,1 @@
+Average Silhouette Score: 0.778868555436617
