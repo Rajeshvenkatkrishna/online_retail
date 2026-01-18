@@ -13,9 +13,6 @@ The work is divided into two major parts:
 ## Original Work (Model Development)
 This repository is forked from the original work developed by my teammate.
 
-**Original Author:** Mr.H R Harigopal
-**Original Repository:** https://github.com/MrHARI76/online_retail_r
-
 ### Original Contributions
 - Data preprocessing and cleaning
 - Feature engineering
