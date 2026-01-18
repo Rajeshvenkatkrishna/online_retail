@@ -27,7 +27,7 @@ cluster_info = {
 # -------------------------------
 st.set_page_config(page_title="Customer Segmentation", layout="centered")
 
-st.title("🛍️ Customer Segmentation System")
+st.title("Customer Segmentation System")
 st.write(
     "This system predicts customer value using **RFM-based KMeans clustering**."
 )
